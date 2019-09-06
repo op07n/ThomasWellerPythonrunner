@@ -14,6 +14,8 @@ The appveyor artifact is an exe for 32 bits.
 Get the artifact from **appveyor**, unzip in any location. Create in the same location the directories **data**, **scripts** and **x86**.
 Copy in **data** <i>stockdata.sqlite</i>, in **scripts** the <i>python files</i> and copy in **x86** <i>SQLite.Interop.dll</i>
 
+Write in file <i>SPyRunnerDemo.exe.config</i> the correct python path.
+
 In python 3.7 :
 
 - pip install numpy
