@@ -1,7 +1,7 @@
 image: Visual Studio 2019 Preview
   
 before_build:
-  - cmd: 7z e PyCsStocks_sample.zip "%APPVEYOR_BUILD_FOLDER%"
+  - cmd: 7z e PyCsStocks_sample.zip
   - cmd: nuget restore
 
 install:
